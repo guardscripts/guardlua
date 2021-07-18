@@ -65,7 +65,6 @@
 (snippet and language updates will continue)
 ### More information
 * [Website](https://guard.lol)
-* [Github](https://github.com/guardscripts)
 * [Discord](https://guard.lol/discord)
 
 
