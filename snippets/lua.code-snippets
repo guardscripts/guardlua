@@ -1,0 +1,1746 @@
+{
+    "guard - findfirstchild": {
+        "prefix": "findfirstchild",
+        "body": "FindFirstChild($1)",
+        "description": "FindFirstChild"
+    },
+
+    "guard - Enum.Keycode": {
+        "prefix": "Enum",
+        "body": "Enum.${1|ABTestLoadingStatus,ActionType,ActuatorRelativeTo,ActuatorType,AdornCullingMode,AlignType,AlphaMode,AnalyticsEconomyAction,AnalyticsLogLevel,AnalyticsProgressionStatus,AnimationPriority,ApplyStrokeMode,AppShellActionType,AppShellFeature,AppUpdateStatus,AspectType,AssetFetchStatus,AssetType,AssetTypeVerification,AutoIndentRule,AutomaticSize,AvatarAssetType,AvatarContextMenuOption,AvatarItemType,AvatarJointPositionType,AvatarPromptResult,Axis,BinType,BodyPart,BodyPartR15,BorderMode,BreakReason,BulkMoveMode,BundleType,Button,ButtonStyle,CameraMode,CameraPanMode,CameraType,CatalogCategoryFilter,CatalogSortType,CellBlock,CellMaterial,CellOrientation,CenterDialogType,ChatCallbackType,ChatColor,ChatMode,ChatPrivacyMode,ChatStyle,CollisionFidelity,ComputerCameraMovementMode,ComputerMovementMode,ConnectionError,ConnectionState,ContextActionPriority,ContextActionResult,ControlMode,CoreGuiType,CreatorType,CurrencyType,CustomCameraMode,DataStoreRequestType,DevCameraOcclusionMode,DevComputerCameraMovementMode,DevComputerMovementMode,DeveloperMemoryTag,DeviceType,DevTouchCameraMovementMode,DevTouchMovementMode,DialogBehaviorType,DialogPurpose,DialogTone,DominantAxis,DraftStatusCode,EasingDirection,EasingStyle,ElasticBehavior,EnviromentalPhysicsThrottle,ErrorReporting,ExplosionType,FieldOfViewMode,FillDirection,FilterResult,Font,FontSize,FormFactor,FramerateManagerMode,FrameStyle,FriendRequestEvent,FriendStatus,FunctionalTestResult,GameAvatarType,GearGenreSetting,GearType,Genre,GraphicsMode,guard,HandlesStyle,HorizontalAlignment,HoverAnimateSpeed,HttpCachePolicy,HttpContentType,HttpError,HttpRequestType,HumanoidCollisionType,HumanoidDisplayDistanceType,HumanoidHealthDisplayType,HumanoidRigType,HumanoidStateType,IKCollisionsMode,InfoType,InitialDockState,InlineAlignment,InOut,InputType,InterpolationThrottlingMode,IXPLoadingStatus,JointCreationMode,JointType,KeyCode,KeywordFilterType,Language,LanguagePreference,LeftRight,LevelOfDetailSetting,Limb,LineJoinMode,ListDisplayMode,ListenerType,Material,MembershipType,MeshPartDetailLevel,MeshPartHeads,MeshPartHeadsAndAccessories,MeshType,MessageType,ModelLevelOfDetail,ModifierKey,MouseBehavior,MoveState,NameOcclusion,NetworkOwnership,NormalId,OutputLayoutMode,OverrideMouseIconBehavior,PackagePermission,PacketPriority,ParticleOrientation,PartType,PathStatus,PathWaypointAction,PermissionLevelShown,PhysicsSimulationRate,PhysicsSteppingMethod,Platform,PlaybackState,PlayerActions,PlayerChatType,PoseEasingDirection,PoseEasingStyle,PrivilegeType,ProductPurchaseDecision,ProximityPromptExclusivity,ProximityPromptInputType,ProximityPromptStyle,QualityLevel,R15CollisionType,RaycastFilterType,RenderFidelity,RenderingTestComparisonMethod,RenderPriority,ReturnKeyType,ReverbType,RibbonTool,RollOffMode,RotationType,RuntimeUndoBehavior,SavedQualitySetting,SaveFilter,ScaleType,ScreenOrientation,ScrollBarInset,ScrollingDirection,ServerAudioBehavior,SizeConstraint,SortDirection,SortOrder,SoundType,SpecialKey,StartCorner,Status,StreamingPauseMode,StudioDataModelType,StudioScriptEditorColorCategories,StudioScriptEditorColorPresets,StudioStyleGuideColor,StudioStyleGuideModifier,Style,SurfaceConstraint,SurfaceGuiSizingMode,SurfaceType,SwipeDirection,TableMajorAxis,Technology,TeleportMethod,TeleportResult,TeleportState,TeleportType,TerrainAcquisitionMethod,TextFilterContext,TextInputType,TextTruncate,TextureMode,TextureQueryType,TextXAlignment,TextYAlignment,ThreadPoolConfig,ThrottlingPriority,ThumbnailSize,ThumbnailType,TickCountSampleMethod,TopBottom,TouchCameraMovementMode,TouchMovementMode,TriStateBoolean,TweenStatus,UiMessageType,UITheme,UploadSetting,UserCFrame,UserInputState,UserInputType,VerticalAlignment,VerticalScrollBarPosition,VibrationMotor,VideoQualitySettings,VirtualInputMode,VRTouchpad,VRTouchpadMode,WaterDirection,WaterForce,WrapLayerDebugMode,WrapTargetDebugMode,ZIndexBehavior|}.$0",
+        "description": "Enum KeyCode"
+    },
+   
+    "guard - !!localplayer": {
+        "prefix": "!!localplayer",
+        "body": "game:GetService(\"Players\").LocalPlayer",
+        "description": "Localplayer"
+    },
+
+    "guard - !!humanoid": {
+        "prefix": "!!humanoid",
+        "body": "game:GetService(\"Players\").LocalPlayer.Character.Humanoid",
+        "description": "localplayer.humanoid"
+    },
+
+    "guard - !!walkspeed": {
+        "prefix": "!!walkspeed",
+        "body": "game:GetService(\"Players\").LocalPlayer.Character.Humanoid.WalkSpeed = ",
+        "description": "humanoid.walkspeed"
+    },
+
+    "guard - !!jumppower": {
+        "prefix": "!!jumppower",
+        "body": "game:GetService(\"Players\").LocalPlayer.Character.Humanoid.JumpPower = ",
+        "description": "humanoid.jumppower"
+    },
+    "guard - localplayer": {
+        "prefix": "localplayer",
+        "body": "LocalPlayer",
+        "description": "Localplayer"
+    },
+    "guard - Character": {
+        "prefix": "Character",
+        "body": "Character",
+        "description": "Character"
+    },
+    "guard - humanoid": {
+        "prefix": "humanoid",
+        "body": "Humanoid",
+        "description": "localplayer.humanoid"
+    },
+    "guard - walkspeed": {
+        "prefix": "walkspeed",
+        "body": "WalkSpeed = ",
+        "description": "humanoid.walkspeed"
+    },
+    "guard - jumppower": {
+        "prefix": "jumppower",
+        "body": "JumpPower = ",
+        "description": "humanoid.jumppower"
+    },
+
+    "guard - !!renderstepped function": {
+        "prefix": "!!rendersteppedfunc",
+        "body": [
+            "game:GetService(\"RunService\").RenderStepped:Connect(function($1)",
+            "\t$2",
+            "end)"
+        ],
+        "description": "renderstepped"
+    },
+
+    "guard - !!hwid": {
+        "prefix": "!!hwid",
+        "body": "game:GetService(\"RbxAnalyticsService\"):GetClientId()",
+        "description": "lol"
+    },
+    
+    
+    "guard - !!getclientid": {
+        "prefix": "!!getclientid",
+        "body": "game:GetService(\"RbxAnalyticsService\"):GetClientId()",
+        "description": "aka hwid"
+    },
+    
+     "guard - GetService": {
+       "prefix": "game:GetService",
+       "body": [
+           "local ${1|AssetService,BadgeService,ChangeHistoryService,Chat,CollectionService,ContentProvider,ContextActionService,CoreGui,DataStoreService,Debris,GamePassService,GroupService,GuiService,HapticService,HttpService,InsertService,JointsService,KeyboardService,KeyframeSequenceProvider,Lighting,LogService,MarketplaceService,MouseService,NetworkClient,NetworkServer,PathfindingService,PhysicsService,Players,PointsService,ReplicatedFirst,ReplicatedStorage,RunService,ScriptContext,Selection,ServerScriptService,ServerStorage,SoundService,StarterGui,StarterPack,StarterPlayer,Stats,Teams,TeleportService,TestService,TextService,TweenService,UserInputService,VRService,Workspace|} = game:GetService(\"$1\")$0"
+        ],
+        "description": "Import service"
+     },
+    
+    "guard - for pairs": {
+        "prefix": "for pairs",
+        "body": ["for i,v in pairs($1) do",
+            "\t$2",
+            "end"
+        ],
+        "description": "pairs"
+    },
+   
+	"guard - for num": {
+        "prefix": "for pairs",
+        "body": ["for $1 = $2,$3 do",
+            "\t$2",
+            "end"
+        ],
+        "description": "num pairs"
+    },
+
+
+    "guard - help": {
+        "prefix": "help",
+        "body": [
+            "--[[",
+            "The following are the commands that this snippet uses!",
+            "-------------------------------------------------------",
+            "\"*s\" will show all of the scripts for use available, example: *sfeflipv7",
+            "----------",
+            "\"!!\" will show all of the fast prefixes available to use, example: !!localplayer",
+            "",
+            "",
+            "",
+            "",
+            "]]"
+        ],
+        "description": "Snippet Help"
+    },
+    
+    "guard - UDim2": {
+        "prefix": "UDim2.new",
+        "body": "UDim2.new($1,$2,$3,$4)$0",
+        "description": "UDim2"
+    },
+    
+    "guard - true": {
+        "prefix": "true",
+        "body": "true",
+        "description": "true boolean"
+    },
+    
+    "guard - false": {
+        "prefix": "false",
+        "body": "false",
+        "description": "false boolean"
+    },
+
+    "guard - !!function": {
+        "prefix": "!!function",
+        "body": [
+            "function $1($2)",
+            "\t$0",
+            "end"
+        ],
+        "description": ""
+    },
+    "guard - function": {
+        "prefix": "function",
+        "body": [
+            "function $1($2)"
+        ],
+        "description": ""
+    },
+    "guard - !!local function": {
+        "prefix": "!!lfunction",
+        "body": [
+            "local function $1($2)",
+            "\t$0",
+            "end"
+        ],
+        "description": ""
+    },
+    "guard - local function": {
+        "prefix": "lfunction",
+        "body": [
+            "local function $1($2)"
+        ],
+        "description": ""
+    },
+    
+    "guard - Keycode": {
+        "prefix": "Enum.Keycode",
+        "body": "Enum.KeyCode.",
+        "description": "Keycode"
+    },
+
+    "guard - coroutine function": {
+        "prefix": "cfunction",
+        "body": [
+            "coroutine.wrap(function($1)",
+            "$0",
+            "end)()"
+        ],
+        "description": "cfunction"
+    },
+
+    "guard - feflipv7": {
+        "prefix": "*sfeflipv7",
+        "body": "loadstring(game:HttpGet(\"https://guard.lol/scripts/feflipv7.lua\",true))()",
+        "description": ""
+    },
+    "guard - feflipv8": {
+    "prefix": "*sfeflipv7",
+    "body": "loadstring(game:HttpGet(\"https://guard.lol/scripts/feflipv8.lua\",true))()",
+    "description": ""
+    },
+    "guard - universal esp": {
+        "prefix": "*sESP",
+        "body": "loadstring(game:HttpGet(\"https://guard.lol/scripts/3desp.lua\",true))()",
+        "description": ""
+    },
+
+
+    "guard - fly": {
+        "prefix": "*sfly",
+        "body": "",
+        "description": "loadstring(game:HttpGet(\"https://guard.lol/scripts/fly.lua\",true))()"
+    },
+
+    "guard - noclip": {
+        "prefix": "*snoclip",
+        "body": "loadstring(game:HttpGet(\"https://guard.lol/scripts/noclip.lua\",true))()",
+        "description": "noclip"
+    },
+
+    "guard - low gravity": {
+        "prefix": "*slowgravity",
+        "body": "game:GetService(\"WorkSpace\").Gravity = 50",
+        "description": ""
+    },
+
+    "guard - high walkspeed": {
+        "prefix": "*shighwalkspeed",
+        "body": "game:GetService(\"Players\").LocalPlayer.Character.Humanoid.WalkSpeed = 50",
+        "description": ""
+    },
+
+    "guard - high jumppower": {
+        "prefix": "*shighjumppower",
+        "body": "game:GetService(\"Players\").LocalPlayer.Character.Humanoid.JumpPower = 200",
+        "description": ""
+    },
+    "guard - inf jump": {
+        "prefix": "*sinfjump",
+        "body": "loadstring(game:HttpGet(\"https://guard.lol/scripts/infjump.lua\",true))()",
+        "description": ""
+    },
+    
+    "guard - !!loadstring": {
+        "prefix": "!!loadstring",
+        "body": "loadstring(game:HttpGet(\"$1\",true))()",
+        "description": "loadstring"
+    },
+    "guard - loadstringhttp": {
+        "prefix": "loadstring",
+        "body": "loadstring(game:HttpGet(\"$1\",true))()",
+        "description": "loadstring"
+    },
+    "guard - !!getobjects": {
+        "prefix": "!!GetObjects",
+        "body": "GetObjects('rbxassetid://$1')[1].Source)()",
+        "description": "GetObjects"
+    },
+    "guard - loadstring": {
+        "prefix": "loadstring",
+        "body": "loadstring($0)()",
+        "description": "loadstring"
+    },
+    "guard - getobjects": {
+        "prefix": "GetObjects",
+        "body": "GetObjects($0)()",
+        "description": "GetObjects"
+    },
+    "guard - brickcolor.new": {
+        "prefix": "BrickColor.new",
+        "body": [
+            "BrickColor.new(${1|\"White\",\"Brick Yellow\",\"Light Reddish Violet\",\"Pastel Blue\",\"Nougat\",\"Bright Red\",\"Bright Blue\",\"Bright Yellow\",\"Black\",\"Dark Green\",\"Medium Green\",\"Bright Green\",\"Dark Orange\",\"Light Blue\",\"Medium Red\",\"Medium Blue\",\"Bright Violet\",\"Br. Yellowish Orange\",\"Bright Orange\",\"Bright Bluish Green\",\"Br. Yellowish Green\",\"Light Orange\",\"Sand Blue\",\"Earth Green\",\"Sand Green\",\"Sand Red\",\"Reddish Brown\",\"Medium Stone Grey\",\"Dark Stone Grey\",\"Light Stone Grey\",\"Brown\",\"Cool Yellow\",\"Institutional White\",\"Mid Grey\",\"Really Black\",\"Really Red\",\"Neon Orange\",\"Alder\",\"Dusty Rose\",\"Olive\",\"New Yeller\",\"Really Blue\",\"Navy Blue\",\"Deep Blue\",\"Cyan\",\"CGA Brown\",\"Magenta\",\"Pink\",\"Deep Orange\",\"Teal\",\"Toothpaste\",\"Lime Green\",\"Camo\",\"Grime\",\"Lavender\",\"Pastel Light Blue\",\"Pastel Orange\",\"Pastel Violet\",\"Pastel Blue-Green\",\"Pastel Green\",\"Pastel Yellow\",\"Pastel Brown\",\"Royal Purple\",\"Hot Pink\"|})"
+         ],
+        "description": "new brickcolor"
+    },
+    "guard - getgenv": {
+        "prefix": "getgenv",
+        "body": "getgenv($1)",
+        "description": "getgenv"
+    },
+    "guard - getrenv": {
+        "prefix": "getrenv",
+        "body": "getrenv($1)",
+        "description": "getrenv"
+    },
+    "guard - getreg": {
+        "prefix": "getreg",
+        "body": "getreg($1)",
+        "description": "getreg"
+    },
+    "guard - getgc": {
+        "prefix": "getgc",
+        "body": "getgc($1)",
+        "description": "getgc"
+    },
+    "guard - getinstances": {
+        "prefix": "getinstances",
+        "body": "getinstances($1)",
+        "description": "getinstances"
+    },
+    "guard - getnilinstances": {
+        "prefix": "getnilinstances",
+        "body": "getnilinstances($1)",
+        "description": "getnilinstances"
+    },
+    "guard - getscripts": {
+        "prefix": "getscripts",
+        "body": "getscripts($1)",
+        "description": "getscripts"
+    },
+    "guard - getloadedmodules": {
+        "prefix": "getloadedmodules",
+        "body": "getloadedmodules($1)",
+        "description": "getloadedmodules"
+    },
+    "guard - getconnections": {
+        "prefix": "getconnections",
+        "body": "getconnections($1)",
+        "description": "getconnections"
+    },
+    "guard - getfpscap": {
+        "prefix": "getfpscap",
+        "body": "getfpscap()",
+        "description": "getfpscap"
+    },
+    "guard - setfpscap": {
+        "prefix": "setfpscap",
+        "body": "setfpscap($1)",
+        "description": "setfpscap"
+    },
+    "guard - getcallingscript": {
+        "prefix": "getcallingscript",
+        "body": "getcallingscript($1)",
+        "description": "getcallingscript"
+    },
+    "guard - getsenv": {
+        "prefix": "getsenv",
+        "body": "getsenv($1)",
+        "description": "getsenv"
+    },
+    "guard - getrawmetatable": {
+        "prefix": "getrawmetatable",
+        "body": "getrawmetatable($1)",
+        "description": "getrawmetatable"
+    },
+    "guard - setrawmetatable": {
+        "prefix": "setrawmetatable",
+        "body": "setrawmetatable($1,$2)",
+        "description": "setrawmetatable"
+    },
+    "guard - setreadonly": {
+        "prefix": "setreadonly",
+        "body": "setreadonly($1,${2|false,true|})",
+        "description": "getgenv"
+    },
+    "guard - isreadonly": {
+        "prefix": "isreadonly",
+        "body": "isreadonly($1)",
+        "description": "isreadonly"
+    },
+    "guard - keypress": {
+        "prefix": "keypress",
+        "body": "keypress($1)",
+        "description": "keypress"
+    },
+    "guard - keyrelease": {
+        "prefix": "keyrelease",
+        "body": "keyrelease($1)",
+        "description": "keyrelease"
+    },
+    "guard - mouse1click": {
+        "prefix": "mouse1click",
+        "body": "mouse1click($1)",
+        "description": "mouse1click - syn"
+    },
+    "guard - mouse1press": {
+        "prefix": "mouse1press",
+        "body": "mouse1press($1)",
+        "description": "mouse1press - syn"
+    },
+    "guard - mouse1release": {
+        "prefix": "mouse1release",
+        "body": "mouse1release($1)",
+        "description": "mouse1release - syn"
+    },
+    "guard - mouse2click": {
+        "prefix": "mouse2click",
+        "body": "mouse2click($1)",
+        "description": "mouse2click - syn"
+    },
+    "guard - mouse2press": {
+        "prefix": "mouse2press",
+        "body": "mouse2press($1)",
+        "description": "mouse2press - syn"
+    },
+    "guard - mouse2release": {
+        "prefix": "mouse2release",
+        "body": "mouse2release($1)",
+        "description": "mouse2release - syn"
+    },
+    "guard - mousescroll": {
+        "prefix": "mousescroll",
+        "body": "mousescroll($1)",
+        "description": "mousescroll - syn"
+    },
+    "guard - mousemoverel": {
+        "prefix": "mousemoverel",
+        "body": "mousemoverel($1)",
+        "description": "mousemoverel - syn"
+    },
+    "guard - mousemoveabs": {
+        "prefix": "mousemoveabs",
+        "body": "mousemoveabs($1)",
+        "description": "mousemoveabs - syn"
+    },
+    "guard - hookfunction": {
+        "prefix": "hookfunction",
+        "body": "hookfunction($1, $2)",
+        "description": "getgenv"
+    },
+    "guard - newcclosure": {
+        "prefix": "newcclosure",
+        "body": "newcclosure($1)",
+        "description": "newcclosure"
+    },
+    "guard - islclosure": {
+        "prefix": "islclosure",
+        "body": "islclosure($1)",
+        "description": "islclosure"
+    },
+    "guard - dumpstring": {
+        "prefix": "dumpstring",
+        "body": "dumpstring($1)",
+        "description": "dumpstring"
+    },
+    "guard - saveinstance": {
+        "prefix": "saveinstance",
+        "body": "saveinstance($1)",
+        "description": "saveinstance"
+    },
+    "guard - readfile": {
+        "prefix": "readfile",
+        "body": "readfile(\"$1\")",
+        "description": "readfile"
+    },
+    "guard - writefile": {
+        "prefix": "writefile",
+        "body": "writefile(\"$1\", \"$2\")",
+        "description": "writefile"
+    },
+    "guard - appendfile": {
+        "prefix": "appendfile",
+        "body": "appendfile(\"$1\", \"$2\")",
+        "description": "appendfile"
+    },
+    "guard - loadfile": {
+        "prefix": "loadfile",
+        "body": "loadfile(\"$1\")",
+        "description": "getgenv"
+    },
+    "guard - listfiles": {
+        "prefix": "listfiles",
+        "body": "listfiles(\"$1\")",
+        "description": "listfiles"
+    },
+    "guard - isfile": {
+        "prefix": "isfile",
+        "body": "isfile(\"$1\")",
+        "description": "isfile"
+    },
+    "guard - isfolder": {
+        "prefix": "isfolder",
+        "body": "isfolder(\"$1\")",
+        "description": "isfolder"
+    },
+    "guard - makefolder": {
+        "prefix": "makefolder",
+        "body": "makefolder(\"$1\")",
+        "description": "makefolder"
+    },
+    "guard - delfolder": {
+        "prefix": "delfolder",
+        "body": "delfolder(\"$1\")",
+        "description": "delfolder"
+    },
+    "guard - delfile": {
+        "prefix": "delfile",
+        "body": "delfile(\"$1\")",
+        "description": "delfile"
+    },
+    "guard - setclipboard": {
+        "prefix": "setclipboard",
+        "body": "setclipboard($1)",
+        "description": "setclipboard"
+    },
+    "guard - setfflag": {
+        "prefix": "setfflag",
+        "body": "setfflag(\"$1\", \"$2\")",
+        "description": "setfflag"
+    },
+    "guard - getnamecallmethod": {
+        "prefix": "getnamecallmethod",
+        "body": "getnamecallmethod($1)",
+        "description": "getnamecallmethod"
+    },
+    "guard - setnamecallmethod": {
+        "prefix": "setnamecallmethod",
+        "body": "setnamecallmethod(\"$1\")",
+        "description": "setnamecallmethod"
+    },
+    "guard - getsynasset": {
+        "prefix": "getsynasset",
+        "body": "getsynasset(\"$1\")",
+        "description": "getsynasset"
+    },
+    "guard - getspecialinfo": {
+        "prefix": "getspecialinfo",
+        "body": "getspecialinfo($1)",
+        "description": "getspecialinfo"
+    },
+    "guard - messagebox": {
+        "prefix": "messagebox",
+        "body": "messagebox(\"$1\", \"$2\", $3)",
+        "description": "messagebox"
+    },
+    "guard - bit.bdiv": {
+        "prefix": "bit.bdiv",
+        "body": "bit.bdiv($1, $2)",
+        "description": "Divides dividend by divisor"
+    },
+    "guard - bit.badd": {
+        "prefix": "bit.badd",
+        "body": "bit.badd($1, $2)",
+        "description": "Adds a with b, allows overflows."
+    },
+    "guard - bit.bsub": {
+        "prefix": "bit.bsub",
+        "body": "bit.bsub($1, $2)",
+        "description": "Subtracts a with b, allows overflows.e"
+    },
+    "guard - bit.bmul": {
+        "prefix": "bit.bmul",
+        "body": "bit.bmul($1, $2)",
+        "description": "Multiplies val using by, allows overflows."
+    },
+    "guard - bit.band": {
+        "prefix": "bit.band",
+        "body": "bit.band($1, $2)",
+        "description": "Does a bitwise AND (&) on val using by."
+    },
+    "guard - bit.bor": {
+        "prefix": "bit.bor",
+        "body": "bit.bor($1, $2)",
+        "description": "Does a bitwise OR (|) on val using by."
+    },
+    "guard - bit.bxor": {
+        "prefix": "bit.bxor",
+        "body": "bit.bxor($1, $2)",
+        "description": "Does a bitwise XOR (⊕) on val using by."
+    },
+    "guard - bit.bswap": {
+        "prefix": "bit.bswap",
+        "body": "bit.bswap($1)",
+        "description": "Does a bitwise swap on val."
+    },
+    "guard - bit.bnot": {
+        "prefix": "bit.bnot",
+        "body": "bit.bnot($1, $2)",
+        "description": "Does a bitwise NOT on val."
+    },
+    "guard - bit.rol": {
+        "prefix": "bit.rol",
+        "body": "bit.rol($1, $2)",
+        "description": "Returns the value rotated right by rotate_count."
+    },
+    "guard - bit.tohex": {
+        "prefix": "bit.tohex",
+        "body": "bit.tohex($1)",
+        "description": "Converts val to a hex string."
+    },
+    "guard - bit.tobit": {
+        "prefix": "bit.tobit",
+        "body": "bit.tobit($1)",
+        "description": "Converts val into proper form for bitwise operations."
+    },
+    "guard - bit.lshift": {
+        "prefix": "bit.lshift",
+        "body": "bit.lshift($1, $2)",
+        "description": "Does a left shift on val using by"
+    },
+    "guard - bit.rshift": {
+        "prefix": "bit.rshift",
+        "body": "bit.rshift($1, $2)",
+        "description": "Does a right shift on val using by."
+    },
+    "guard - bit.arshift": {
+        "prefix": "bit.arshift",
+        "body": "bit.arshift($1, $2)",
+        "description": "Returns the arithmetically shifted value."
+    },
+    "guard - syn.crypt.encrypt": {
+        "prefix": "syn.crypt.encrypt",
+        "body": "syn.crypt.encrypt(\"$1\", \"$2\")",
+        "description": "Encrypts data with key (algorithm used is AES-GCM, random nonce generated per call)."
+    },
+    "guard - syn.crypt.decrypt": {
+        "prefix": "syn.crypt.decrypt",
+        "body": "syn.crypt.decrypt(\"$1\", \"$2\")",
+        "description": "Decrypts data with key."
+    },
+    "guard - syn": {
+        "prefix": "syn",
+        "body": "syn",
+        "description": "synapse"
+    },
+    "guard - then": {
+        "prefix": "then",
+        "body": [
+            "then",
+            "\t$1",
+            "end"
+        ],
+        "description": "then"
+    },
+    "guard - print": {
+        "prefix": "print",
+        "body": [
+            "print($1)"          
+        ],
+        "description": "print"
+    },
+    "guard - New Instance": {
+        "prefix": "Instance.new(\"\")",
+        "body": [
+            "Instance.new(\"#1\")"
+        ],
+        "description": "instance"
+    },
+    "guard - ClearAllChildren()": {
+        "prefix": ":ClearAllChildren()",
+        "body": [
+            ":ClearAllChildren()"
+        ],
+        "description": "ClearAllChildren"
+    },
+    "guard - Clone()": {
+        "prefix": ":Clone()",
+        "body": [
+            ":Clone()"
+        ],
+        "description": "Clone"
+    },
+    "guard - Destroy()": {
+        "prefix": ":Destroy()",
+        "body": [
+            ":Destroy()"
+        ],
+        "description": "Destroy"
+    },
+    "guard - FindFirstAncestor()": {
+        "prefix": ":FindFirstAncestor()",
+        "body": [
+            ":FindFirstAncestor(\"$1\")"
+        ],
+        "description": "FindFirstAncestor"
+    },
+    "guard - FindFirstAncestorOfClass()": {
+        "prefix": ":FindFirstAncestorOfClass()",
+        "body": [
+            ":FindFirstAncestorOfClass(\"$1\")"
+        ],
+        "description": "FindFirstAncestorOfClass"
+    },
+    "guard - FindFirstAncestorWhichIsA()": {
+        "prefix": ":FindFirstAncestorWhichIsA()",
+        "body": [
+            ":FindFirstAncestorWhichIsA(\"$1\")"
+        ],
+        "description": "FindFirstAncestorWhichIsA"
+    },
+    "guard - FindFirstChild()": {
+        "prefix": ":FindFirstChild()",
+        "body": [
+            ":FindFirstChild(\"$1\")"
+        ],
+        "description": "FindFirstChild"
+    },
+    "guard - FindFirstChildOfClass()": {
+        "prefix": ":FindFirstChildOfClass()",
+        "body": [
+            ":FindFirstChildOfClass(\"$1\")"
+        ],
+        "description": "FindFirstChildOfClass"
+    },
+    "guard - FindFirstChildWhichIsA()": {
+        "prefix": ":FindFirstChildWhichIsA()",
+        "body": [
+            ":FindFirstChildWhichIsA(\"$1\")"
+        ],
+        "description": "FindFirstChildWhichIsA"
+    },
+    "guard - GetActor()": {
+        "prefix": ":GetActor()",
+        "body": [
+            ":GetActor()"
+        ],
+        "description": "GetActor"
+    },
+    "guard - GetAttribute()": {
+        "prefix": ":GetAttribute()",
+        "body": [
+            ":GetAttribute(\"$1\")"
+        ],
+        "description": "GetAttribute"
+    },
+    "guard - GetAttributeChangedSignal()": {
+        "prefix": ":GetAttributeChangedSignal()",
+        "body": [
+            ":GetAttributeChangedSignal(\"$1\")"
+        ],
+        "description": "GetAttributeChangedSignal"
+    },
+    "guard - GetAttributes()": {
+        "prefix": ":GetAttributes()",
+        "body": [
+            ":GetAttributes()"
+        ],
+        "description": "GetAttributes"
+    },
+    "guard - GetChildren()": {
+        "prefix": ":GetChildren()",
+        "body": [
+            ":GetChildren()"
+        ],
+        "description": "GetChildren"
+    },
+    "guard - GetDebugId()": {
+        "prefix": ":GetDebugId()",
+        "body": [
+            ":GetDebugId()"
+        ],
+        "description": "GetDebugId"
+    },
+    "guard - GetDescendants()": {
+        "prefix": ":GetDescendants()",
+        "body": [
+            ":GetDescendants()"
+        ],
+        "description": "GetDescendants"
+    },
+    "guard - GetFullName()": {
+        "prefix": ":GetFullName()",
+        "body": [
+            ":GetFullName()"
+        ],
+        "description": "GetFullName"
+    },
+    "guard - GetPropertyChangedSignal()": {
+        "prefix": ":GetPropertyChangedSignal()",
+        "body": [
+            ":GetPropertyChangedSignal(\"$1\")"
+        ],
+        "description": "GetPropertyChangedSignal"
+    },
+    "guard - IsA()": {
+        "prefix": ":IsA()",
+        "body": [
+            ":IsA(\"$1\")"
+        ],
+        "description": "IsA"
+    },
+    "guard - IsAncestorOf()": {
+        "prefix": ":IsAncestorOf()",
+        "body": [
+            ":IsAncestorOf()"
+        ],
+        "description": "IsAncestorOf"
+    },
+    "guard - IsDescendantOf()": {
+        "prefix": ":IsDescendantOf()",
+        "body": [
+            ":IsDescendantOf()"
+        ],
+        "description": "IsDescendantOf"
+    },
+    "guard - SetAttribute()": {
+        "prefix": ":SetAttribute()",
+        "body": [
+            ":SetAttribute(\"$1\", Vector3.new($2, $3, $4))"
+        ],
+        "description": "SetAttribute"
+    },
+    "guard - WaitForChild()": {
+        "prefix": ":WaitForChild()",
+        "body": [
+            ":WaitForChild(\"$1\")"
+        ],
+        "description": "WaitForChild"
+    },
+    "guard - connect function": {
+        "prefix": ":Connect(function()",
+        "body": [
+            ":Connect(function($1)",
+            "\t$0",
+            "end)"
+        ],
+        "description": "connect function"
+    },
+    "guard - connect function2": {
+        "prefix": "fconnect",
+        "body": [
+            ":Connect(function($1)",
+            "\t$0",
+            "end)"
+        ],
+        "description": "connect function"
+    },
+    "guard - connect ": {
+        "prefix": ":Connect()",
+        "body": [
+            ":Connect($1)",
+            "\t$0",
+            "end)"
+        ],
+        "description": "Connect"
+    },
+    "guard - AncestryChanged": {
+        "prefix": "AncestryChanged",
+        "body": [
+            "AncestryChanged"
+        ],
+        "description": "AncestryChanged"
+    },
+    "guard - AttributeChanged": {
+        "prefix": "AttributeChanged",
+        "body": [
+            "AttributeChanged"
+        ],
+        "description": "AttributeChanged"
+    },
+    "guard - Changed": {
+        "prefix": "Changed",
+        "body": [
+            "Changed"
+        ],
+        "description": "Changed"
+    },
+    "guard - ChildRemoved": {
+        "prefix": "ChildRemoved",
+        "body": [
+            "ChildRemoved"
+        ],
+        "description": "ChildRemoved"
+    },
+    "guard - DescendantAdded ": {
+        "prefix": "DescendantAdded ",
+        "body": [
+            "DescendantAdded "
+        ],
+        "description": "DescendantAdded "
+    },
+    "guard - DescendantRemoving": {
+        "prefix": "DescendantRemoving",
+        "body": [
+            "DescendantRemoving"
+        ],
+        "description": "DescendantRemoving"
+    },
+    "guard - TestService": {
+        "prefix": "TestService",
+        "body": [
+            "TestService"
+        ],
+        "description": "TestService"
+    },
+    "guard - LocalizationService": {
+        "prefix": "LocalizationService",
+        "body": [
+            "LocalizationService"
+        ],
+        "description": "LocalizationService"
+    },
+    "guard - Chat": {
+        "prefix": "Chat",
+        "body": [
+            "Chat"
+        ],
+        "description": "Chat"
+    },
+    "guard - SoundService": {
+        "prefix": "SoundService",
+        "body": [
+            "SoundService"
+        ],
+        "description": "SoundService"
+    },
+    "guard - StarterCharacterScripts": {
+        "prefix": "StarterCharacterScripts",
+        "body": [
+            "StarterCharacterScripts"
+        ],
+        "description": "StarterCharacterScripts"
+    },
+    "guard - StarterPlayer": {
+        "prefix": "StarterPlayer",
+        "body": [
+            "StarterPlayer"
+        ],
+        "description": "StarterPlayer"
+    },
+    "guard - StarterPlayerScripts": {
+        "prefix": "StarterPlayerScripts",
+        "body": [
+            "StarterPlayerScripts"
+        ],
+        "description": "StarterPlayerScripts"
+    },
+    "guard - StarterPack": {
+        "prefix": "StarterPack",
+        "body": [
+            "StarterPack"
+        ],
+        "description": "StarterPack"
+    },
+    "guard - ServerStorage": {
+        "prefix": "ServerStorage",
+        "body": [
+            "ServerStorage"
+        ],
+        "description": "ServerStorage"
+    },
+    "guard - ServerScriptService": {
+        "prefix": "ServerScriptService",
+        "body": [
+            "ServerScriptService"
+        ],
+        "description": "ServerScriptService"
+    },
+    "guard - ReplicatedFirst": {
+        "prefix": "ReplicatedFirst",
+        "body": [
+            "ReplicatedFirst"
+        ],
+        "description": "ReplicatedFirst"
+    },
+    "guard - ReplicatedStorage": {
+        "prefix": "ReplicatedStorage",
+        "body": [
+            "ReplicatedStorage"
+        ],
+        "description": "ReplicatedStorage"
+    },
+    "guard - Lighting": {
+        "prefix": "Lighting",
+        "body": [
+            "Lighting"
+        ],
+        "description": "Lighting"
+    },
+    "guard - Workspace": {
+        "prefix": "Workspace",
+        "body": [
+            "Workspace"
+        ],
+        "description": "Workspace"
+    },
+    "guard - Players": {
+        "prefix": "Players",
+        "body": [
+            "Players"
+        ],
+        "description": "Players"
+    },
+    "guard - invisible": {
+        "prefix": "invisible",
+        "body": [
+            "invisible"
+        ],
+        "description": "invisible"
+    },
+    "guard - do": {
+        "prefix": "do",
+        "body": [
+            "do",
+            "\t$1",
+            "end"
+        ],
+        "description": "do"
+    },
+    "guard - repeat": {
+        "prefix": "repeat",
+        "body": [
+            "repeat"
+        ],
+        "description": "repeat"
+    },
+    "guard - until": {
+        "prefix": "until",
+        "body": [
+            "until"
+        ],
+        "description": "until"
+    },
+    "guard - if": {
+        "prefix": "if",
+        "body": [
+            "if"
+        ],
+        "description": "if"
+    },
+    "guard - when": {
+        "prefix": "when",
+        "body": [
+            "when"
+        ],
+        "description": "when"
+    },
+    "guard - break": {
+        "prefix": "break",
+        "body": [
+            "break"
+        ],
+        "description": "break"
+    },
+    "guard - else": {
+        "prefix": "else",
+        "body": [
+            "else"
+        ],
+        "description": "else"
+    },
+    "guard - elseif": {
+        "prefix": "elseif",
+        "body": [
+            "elseif"
+        ],
+        "description": "elseif"
+    },
+    "guard - for": {
+        "prefix": "for",
+        "body": [
+            "for"
+        ],
+        "description": "for"
+    },
+    "guard - goto": {
+        "prefix": "goto",
+        "body": [
+            "goto"
+        ],
+        "description": "goto"
+    },
+    "guard - return": {
+        "prefix": "return",
+        "body": [
+            "return"
+        ],
+        "description": "return"
+    },
+    "guard - continue": {
+        "prefix": "continue",
+        "body": [
+            "continue"
+        ],
+        "description": "continue"
+    },
+    "guard - end": {
+        "prefix": "end",
+        "body": [
+            "end"
+        ],
+        "description": "end"
+    },
+    "guard - in": {
+        "prefix": "in",
+        "body": [
+            "in"
+        ],
+        "description": "in"
+    },
+    "guard - or": {
+        "prefix": "or",
+        "body": [
+            "or"
+        ],
+        "description": "or"
+    },
+    "guard - and": {
+        "prefix": "and",
+        "body": [
+            "and"
+        ],
+        "description": "and"
+    },
+    "guard - while": {
+        "prefix": "while",
+        "body": [
+            "while"
+        ],
+        "description": "while"
+    },
+    "guard - Axes": {
+        "prefix": "Axes",
+        "body": [
+            "Axes"
+        ],
+        "description": "Axes"
+    },
+    "guard - BrickColor": {
+        "prefix": "AxBrickColores",
+        "body": [
+            "BrickColor"
+        ],
+        "description": "BrickColor"
+    },
+    "guard - CFrame": {
+        "prefix": "CFrame",
+        "body": [
+            "CFrame"
+        ],
+        "description": "CFrame"
+    },
+    "guard - Color3": {
+        "prefix": "Color3",
+        "body": [
+            "Color3"
+        ],
+        "description": "Color3"
+    },
+    "guard - ColorSequence": {
+        "prefix": "ColorSequence",
+        "body": [
+            "ColorSequence"
+        ],
+        "description": "aka gradient"
+    },
+    "guard - ColorSequenceKeypoint": {
+        "prefix": "ColorSequenceKeypoint",
+        "body": [
+            "ColorSequenceKeypoint"
+        ],
+        "description": "ColorSequenceKeypoint"
+    },
+    "guard - DockWidgetPluginGuiInfo": {
+        "prefix": "DockWidgetPluginGuiInfo",
+        "body": [
+            "DockWidgetPluginGuiInfo"
+        ],
+        "description": "DockWidgetPluginGuiInfo"
+    },
+    "guard - Enum": {
+        "prefix": "Enum",
+        "body": [
+            "Enum"
+        ],
+        "description": "Enum"
+    },
+    "guard - Faces": {
+        "prefix": "Faces",
+        "body": [
+            "Faces"
+        ],
+        "description": "Faces"
+    },
+    "guard - Instance": {
+        "prefix": "Instance",
+        "body": [
+            "Instance"
+        ],
+        "description": "Instance"
+    },
+    "guard - NumberRange": {
+        "prefix": "NumberRange",
+        "body": [
+            "NumberRange"
+        ],
+        "description": "NumberRange"
+    },
+    "guard - NumberSequence": {
+        "prefix": "NumberSequence",
+        "body": [
+            "NumberSequence"
+        ],
+        "description": "NumberSequence"
+    },
+    "guard - NumberSequenceKeypoint": {
+        "prefix": "NumberSequenceKeypoint",
+        "body": [
+            "NumberSequenceKeypoint"
+        ],
+        "description": "NumberSequenceKeypoint"
+    },
+    "guard - Random": {
+        "prefix": "Random",
+        "body": [
+            "Random"
+        ],
+        "description": "Random"
+    },
+    "guard - Ray": {
+        "prefix": "Ray",
+        "body": [
+            "Ray"
+        ],
+        "description": "Ray"
+    },
+    "guard - Rect": {
+        "prefix": "Rect",
+        "body": [
+            "Rect"
+        ],
+        "description": "Rect"
+    },
+    "guard - Region3": {
+        "prefix": "Region3",
+        "body": [
+            "Region3"
+        ],
+        "description": "Region3"
+    },
+    "guard - TweenInfo": {
+        "prefix": "TweenInfo",
+        "body": [
+            "TweenInfo"
+        ],
+        "description": "TweenInfo"
+    },
+    "guard - UDim": {
+        "prefix": "UDim",
+        "body": [
+            "UDim"
+        ],
+        "description": "UDim"
+    },
+    "guard - Vector2": {
+        "prefix": "Vector2",
+        "body": [
+            "Vector2"
+        ],
+        "description": "Vector2"
+    },
+    "guard - Vector3": {
+        "prefix": "Vector3",
+        "body": [
+            "Vector3"
+        ],
+        "description": "Vector3"
+    },
+    "guard - assert": {
+        "prefix": "assert",
+        "body": [
+            "assert"
+        ],
+        "description": "assert"
+    },
+    "guard - getmetatable": {
+        "prefix": "getmetatable",
+        "body": [
+            "getmetatable"
+        ],
+        "description": "getmetatable"
+    },
+    "guard - error": {
+        "prefix": "error",
+        "body": [
+            "error"
+        ],
+        "description": "error"
+    },
+    "guard - collectgarbage": {
+        "prefix": "collectgarbage",
+        "body": [
+            "collectgarbage"
+        ],
+        "description": "collectgarbage"
+    },
+    "guard - cg": {
+        "prefix": "cg",
+        "body": [
+            "cg($1)"
+        ],
+        "description": "synapse collect garbage"
+    },
+    "guard - ipairs": {
+        "prefix": "ipairs",
+        "body": [
+            "ipairs"
+        ],
+        "description": "ipairs"
+    },
+    "guard - newproxy": {
+        "prefix": "newproxy",
+        "body": [
+            "newproxy"
+        ],
+        "description": "newproxy"
+    },
+    "guard - pairs": {
+        "prefix": "pairs",
+        "body": [
+            "pairs()"
+        ],
+        "description": "pairs"
+    },
+    "guard - pcall": {
+        "prefix": "pcall",
+        "body": [
+            "pcall()"
+        ],
+        "description": "pcall"
+    },
+    "guard - rawequal": {
+        "prefix": "rawequal",
+        "body": [
+            "rawequal()"
+        ],
+        "description": "rawequal"
+    },
+    "guard - rawget": {
+        "prefix": "rawget",
+        "body": [
+            "rawget()"
+        ],
+        "description": "rawget"
+    },
+    "guard - tonumber": {
+        "prefix": "tonumber",
+        "body": [
+            "tonumber($1)"
+        ],
+        "description": "tonumber"
+    },
+    "guard - tostring": {
+        "prefix": "tostring",
+        "body": [
+            "tostring($1)"
+        ],
+        "description": "tostring"
+    },
+    "guard - unpack": {
+        "prefix": "unpack",
+        "body": [
+            "unpack()"
+        ],
+        "description": "unpack"
+    },
+    "guard - setmetatable": {
+        "prefix": "setmetatable",
+        "body": [
+            "setmetatable($1)"
+        ],
+        "description": "setmetatable"
+    },
+    "guard - rawset": {
+        "prefix": "rawset",
+        "body": [
+            "rawset()"
+        ],
+        "description": "rawset"
+    },
+    "guard - select": {
+        "prefix": "select",
+        "body": [
+            "select()"
+        ],
+        "description": "select"
+    },
+    "guard - _G": {
+        "prefix": "_G",
+        "body": [
+            "_G"
+        ],
+        "description": "_G"
+    },
+    "guard - _VERSION": {
+        "prefix": "_VERSION",
+        "body": [
+            "_VERSION"
+        ],
+        "description": "_VERSION"
+    },
+    "guard - delay": {
+        "prefix": "delay",
+        "body": [
+            "delay"
+        ],
+        "description": "delay"
+    },
+    "guard - elapsedTime()": {
+        "prefix": "elapsedTime()",
+        "body": [
+            "elapsedTime()"
+        ],
+        "description": "elapsedTime()"
+    },
+    "guard - require()": {
+        "prefix": "require()",
+        "body": [
+            "require()"
+        ],
+        "description": "require()"
+    },
+    "guard - settings()": {
+        "prefix": "settings()",
+        "body": [
+            "settings()"
+        ],
+        "description": "settings()"
+    },
+    "guard - spawn()": {
+        "prefix": "spawn()",
+        "body": [
+            "spawn()"
+        ],
+        "description": "spawn()"
+    },
+    "guard - tick()": {
+        "prefix": "tick()",
+        "body": [
+            "tick()"
+        ],
+        "description": "tick()"
+    },
+    "guard - wait()": {
+        "prefix": "wait()",
+        "body": [
+            "wait($1)"
+        ],
+        "description": "wait()"
+    },
+    "guard - warn()": {
+        "prefix": "warn()",
+        "body": [
+            "warn($0)"
+        ],
+        "description": "warn()"
+    },
+    "guard - game": {
+        "prefix": "game",
+        "body": [
+            "game"
+        ],
+        "description": "game"
+    },
+    "guard - shared": {
+        "prefix": "shared",
+        "body": [
+            "shared"
+        ],
+        "description": "shared"
+    },
+    "guard - script": {
+        "prefix": "script",
+        "body": [
+            "script"
+        ],
+        "description": "script"
+    },
+    "guard - workspace": {
+        "prefix": "workspace",
+        "body": [
+            "workspace"
+        ],
+        "description": "workspace"
+    },
+    "guard - bit32": {
+        "prefix": "bit32",
+        "body": [
+            "bit32"
+        ],
+        "description": "bit32"
+    },
+    "guard - coroutine": {
+        "prefix": "coroutine",
+        "body": [
+            "coroutine"
+        ],
+        "description": "coroutine"
+    },
+    "guard - DateTime": {
+        "prefix": "DateTime",
+        "body": [
+            "DateTime"
+        ],
+        "description": "DateTime"
+    },
+    "guard - debug": {
+        "prefix": "debug",
+        "body": [
+            "debug"
+        ],
+        "description": "debug"
+    },
+    "guard - math": {
+        "prefix": "math",
+        "body": [
+            "math"
+        ],
+        "description": "math"
+    },
+    "guard - abs": {
+        "prefix": "abs",
+        "body": [
+            "abs"
+        ],
+        "description": "abs"
+    },
+    "guard - acos": {
+        "prefix": "acos",
+        "body": [
+            "acos"
+        ],
+        "description": "acos"
+    },
+    "guard - asin": {
+        "prefix": "asin",
+        "body": [
+            "asin"
+        ],
+        "description": "asin"
+    },
+    "guard - atan": {
+        "prefix": "atan",
+        "body": [
+            "atan"
+        ],
+        "description": "atan"
+    },
+    "guard - ceil": {
+        "prefix": "ceil",
+        "body": [
+            "ceil"
+        ],
+        "description": "ceil"
+    },
+    "guard - clamp": {
+        "prefix": "clamp",
+        "body": [
+            "clamp"
+        ],
+        "description": "clamp"
+    },
+    "guard - wrap": {
+        "prefix": "wrap",
+        "body": [
+            "wrap"
+        ],
+        "description": "wrap"
+    },
+    "guard - floor": {
+        "prefix": "floor",
+        "body": [
+            "floor"
+        ],
+        "description": "floor"
+    },
+    "guard - cos": {
+        "prefix": "cos",
+        "body": [
+            "cos"
+        ],
+        "description": "cos"
+    },
+    "guard - max": {
+        "prefix": "max",
+        "body": [
+            "max"
+        ],
+        "description": "max"
+    },
+    "guard - pow": {
+        "prefix": "pow",
+        "body": [
+            "pow"
+        ],
+        "description": "pow"
+    },
+    "guard - min": {
+        "prefix": "min",
+        "body": [
+            "min"
+        ],
+        "description": "min"
+    },
+    "guard - random": {
+        "prefix": "random",
+        "body": [
+            "random"
+        ],
+        "description": "random"
+    },
+    "guard - rad": {
+        "prefix": "rad",
+        "body": [
+            "rad"
+        ],
+        "description": "rad"
+    },
+    "guard - sin": {
+        "prefix": "sin",
+        "body": [
+            "sin"
+        ],
+        "description": "sin"
+    },
+    "guard - sqrt": {
+        "prefix": "sqrt",
+        "body": [
+            "sqrt"
+        ],
+        "description": "sqrt"
+    },
+    "guard - math.huge": {
+        "prefix": "math.huge",
+        "body": [
+            "math.huge"
+        ],
+        "description": "math.huge"
+    },
+    "guard - os.time": {
+        "prefix": "os.time",
+        "body": [
+            "os.time($0)"
+        ],
+        "description": "os.time"
+    },
+    "guard - os": {
+        "prefix": "os",
+        "body": [
+            "os"
+        ],
+        "description": "os"
+    },
+    "guard - string": {
+        "prefix": "string",
+        "body": [
+            "string"
+        ],
+        "description": "string"
+    },
+    "guard - string.find()": {
+        "prefix": "string.find()",
+        "body": [
+            "string.find($0)"
+        ],
+        "description": "string.find()"
+    },
+    "guard - string.gsub()": {
+        "prefix": "string.gsub()",
+        "body": [
+            "string.gsub($0)"
+        ],
+        "description": "string.gsub()"
+    },
+    "guard - string.lower()": {
+        "prefix": "string.lower()",
+        "body": [
+            "string.lower($0)"
+        ],
+        "description": "string.lower()"
+    },
+    "guard - string.match()": {
+        "prefix": "string.match()",
+        "body": [
+            "string.match($0)"
+        ],
+        "description": "string.match()"
+    },
+    "guard - string.reverse()": {
+        "prefix": "string.reverse()",
+        "body": [
+            "string.reverse($0)"
+        ],
+        "description": "string.reverse()"
+    },
+    "guard - table": {
+        "prefix": "table",
+        "body": [
+            "table"
+        ],
+        "description": "table"
+    },
+    "guard - table.insert": {
+        "prefix": "table.insert",
+        "body": [
+            "table.insert"
+        ],
+        "description": "table.insert"
+    },
+    "guard - table.foreach": {
+        "prefix": "table.foreach",
+        "body": [
+            "table.foreach"
+        ],
+        "description": "table.foreach"
+    },
+    "guard - table.concat": {
+        "prefix": "table.concat",
+        "body": [
+            "table.concat"
+        ],
+        "description": "table.concat"
+    },
+    "guard - table.create": {
+        "prefix": "table.create",
+        "body": [
+            "table.create"
+        ],
+        "description": "table.create"
+    },
+    "guard - table.remove": {
+        "prefix": "table.remove",
+        "body": [
+            "table.remove"
+        ],
+        "description": "table.remove"
+    },
+    "guard - table.sort": {
+        "prefix": "table.sort",
+        "body": [
+            "table.sort"
+        ],
+        "description": "table.sort"
+    },
+    "guard - utf8": {
+        "prefix": "utf8",
+        "body": [
+            "utf8"
+        ],
+        "description": "utf8"
+    },
+    "guard - coroutinewrap": {
+        "prefix": "wrapc",
+        "body": [
+            "coroutine.wrap($0)"
+        ],
+        "description": "coroutinewrap"
+    },
+
+}

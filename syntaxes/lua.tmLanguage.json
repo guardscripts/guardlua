@@ -1,0 +1,1024 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "guard",
+    "patterns": [
+        
+        {
+            "name": "keyword.local.lua",
+			"match": "\\blocal\\b"
+        },
+        {
+            "name": "keyword.break.lua",
+			"match": "\\bbreak\\b"
+        },
+        {
+            "name": "keyword.continue.lua",
+			"match": "\\bcontinue\\b"
+        },
+        {
+            "name": "keyword.FieldOfView.lua",
+			"match": "\\bFieldOfView\\b"
+        },
+        {
+            "name": "keyword.69.lua",
+			"match": "69"
+        },
+        {
+            "name": "keyword.666.lua",
+			"match": "666"
+        },
+        {
+            "name": "keyword.69420.lua",
+			"match": "69420"
+        },
+        {
+            "name": "keyword.123.lua",
+			"match": "123"
+        },
+        {
+            "name": "keyword.delay.lua",
+			"match": "\\bdelay\\b"
+        },
+        {
+            "name": "keyword.wait.lua",
+			"match": "\\bwait\\b"
+        },
+        {
+            "name": "keyword.Character.lua",
+			"match": "\\bCharacter\\b"
+        },
+        {
+            "name": "keyword.else.lua",
+			"match": "\\belse\\b"
+        },
+        {
+            "name": "keyword.420.lua",
+			"match": "420"
+        },
+        {
+            "name": "keyword.getrawmetatable.lua",
+			"match": "\\bgetrawmetatable\\b"
+        },
+        {
+            "name": "keyword.then.lua",
+			"match": "\\bthen\\b"
+        },
+        {
+            "name": "keyword.bruh.lua",
+			"match": "\\bbruh\\b"
+        },
+        {
+            "name": "keyword.gay.lua",
+			"match": "\\bgay\\b"
+        },
+        {
+            "name": "keyword.synapse.lua",
+			"match": "\\bsynapse\\b"
+        },
+        {
+            "name": "keyword.scriptware.lua",
+			"match": "\\bscriptware\\b"
+        },
+        {
+            "name": "keyword.camera.lua",
+			"match": "\\bCamera\\b"
+        },
+        {
+            "name": "keyword.localplayer.lua",
+			"match": "\\bLocalPlayer\\b"
+        },
+        {
+            "name": "keyword.humanoid.lua",
+			"match": "\\bHumanoid\\b"
+        },
+        {
+            "name": "keyword.obfuscator.lua",
+			"match": "\\bobfuscator\\b"
+        },
+        {
+            "name": "keyword.luau.lua",
+			"match": "\\bluau\\b"
+        },
+        {
+            "name": "keyword.psu.lua",
+			"match": "\\bpsu\\b"
+        },
+        {
+            "name": "keyword.csharp.lua",
+			"match": "\\bcsharp\\b"
+        },
+        {
+            "name": "keyword.cplusplus.lua",
+			"match": "\\bcplusplus\\b"
+        },
+        {
+            "name": "keyword.not.lua",
+			"match": "\\bnot\\b"
+        },
+        {
+            "name": "keyword.keyboard.lua",
+			"match": "\\bKeyboard\\b"
+        },
+        {
+            "name": "keyword.userinputstate.lua",
+			"match": "\\bUserInputState\\b"
+        },
+        {
+            "name": "keyword.end.lua",
+			"match": "\\bend\\b"
+        },
+        
+        {
+            "name": "keyword.sit.lua",
+			"match": "\\bSit\\b"
+        },
+        {
+            "name": "keyword.jumppower.lua",
+			"match": "\\bJumpPower\\b"
+        },
+        {
+            "name": "keyword.walkspeed.lua",
+			"match": "\\bWalkSpeed\\b"
+        },
+        {
+            "name": "keyword.invisible.lua",
+			"match": "\\binvisible\\b"
+        },
+        {
+            "name": "keyword.invis.lua",
+			"match": "\\binvis\\b"
+        },
+        {
+            "name": "keyword.begin.lua",
+			"match": "\\bBegin\\b"
+        },
+        {
+            "name": "keyword.no.lua",
+			"match": "\\bno\\b"
+        },
+        {
+            "name": "keyword.yes.lua",
+			"match": "\\byes\\b"
+        },
+        {
+            "name": "keyword.maybe.lua",
+			"match": "\\bmaybe\\b"
+        },
+        {
+            "name": "keyword.hmm.lua",
+			"match": "\\bhmm\\b"
+        },
+        {
+            "name": "keyword.guardiscool.lua",
+			"match": "\\bguardiscool\\b"
+        },
+        {
+            "name": "keyword.cframe.lua",
+			"match": "\\bCFrame\\b"
+        },
+        {
+            "name": "keyword.StarterGui.lua",
+			"match": "\\bStarterGui\\b"
+        },
+        {
+            "name": "keyword.Players.lua",
+			"match": "\\bPlayers\\b"
+        },
+        
+        {
+            "name": "keyword.feflip.lua",
+			"match": "\\bfeflip\\b"
+        },
+        {
+            "name": "keyword.feflip2.lua",
+			"match": "\\bFeflip\\b"
+        },
+        {
+            "name": "keyword.feflip3.lua",
+			"match": "\\bFeFlip\\b"
+        },
+        {
+            "name": "keyword.function.lua",
+			"match": "\\bfunction\\b"
+        },
+        {
+            "name": "keyword.metatable.lua",
+			"match": "\\bmetatable\\b"
+        },
+        {
+            "name": "keyword.xd.lua",
+			"match": "\\bxd\\b"
+        },
+        {
+            "name": "keyword.amigay.lua",
+			"match": "\\bamigay\\b"
+        },
+        {
+            "name": "keyword.areyougay.lua",
+			"match": "\\bareyougay\\b"
+        },
+        {
+            "name": "keyword.firetouchinterest.lua",
+			"match": "\\bfiretouchinterest\\b"
+        },
+        {
+            "name": "keyword.gethiddenproperty.lua",
+			"match": "\\bgethiddenproperty\\b"
+        },
+        {
+            "name": "keyword.sethiddenproperty.lua",
+			"match": "\\bsethiddenproperty\\b"
+        },
+        {
+            "name": "keyword.setsimulationradius.lua",
+			"match": "\\bsetsimulationradius\\b"
+        },
+        {
+            "name": "keyword.hookfunction.lua",
+			"match": "\\bhookfunction\\b"
+        },
+        {
+            "name": "keyword.newcclosure.lua",
+			"match": "\\bnewcclosure\\b"
+        },
+        {
+            "name": "keyword.readfile.lua",
+			"match": "\\breadfile\\b"
+        },
+        {
+            "name": "keyword.humanoidrootpart.lua",
+			"match": "\\bHumanoidRootPart\\b"
+        },
+        {
+            "name": "keyword.coregui.lua",
+			"match": "\\bCoreGui\\b"
+        },
+        {
+            "name": "keyword.players.lua",
+			"match": "\\bPlayers\\b"
+        },
+        {
+            "name": "keyword.Lighting.lua",
+			"match": "\\Lighting\\b"
+        },
+        {
+            "name": "keyword.ReplicatedStorage.lua",
+			"match": "\\bReplicatedStorage\\b"
+        },
+        {
+            "name": "keyword.ReplicatedFirst.lua",
+			"match": "\\bReplicatedFirst\\b"
+        },
+        {
+            "name": "keyword.ServerScriptService.lua",
+			"match": "\\bServerScriptService\\b"
+        },
+        {
+            "name": "keyword.ServerStorage.lua",
+			"match": "\\bServerStorage\\b"
+        },
+        {
+            "name": "keyword.StarterPack.lua",
+			"match": "\\bStarterPack\b"
+        },
+        {
+            "name": "keyword.StarterPlayer.lua",
+			"match": "\\bStarterPlayer\\b"
+        },
+        {
+            "name": "keyword.StarterPlayerScripts.lua",
+			"match": "\\bStarterPlayerScripts\\b"
+        },
+        {
+            "name": "keyword.StarterCharacterScripts.lua",
+			"match": "\\bStarterCharacterScripts\\b"
+        },
+        {
+            "name": "keyword.amidumb.lua",
+			"match": "\\bamidumb\\b"
+        },
+        {
+            "name": "keyword.areyoudumb.lua",
+			"match": "\\bareyoudumb\\b"
+        },
+        {
+            "name": "keyword.amifat.lua",
+			"match": "\\bamifat\\b"
+        },
+        {
+            "name": "keyword.areyoufat.lua",
+			"match": "\\bareyoufat\\b"
+        },
+        {
+            "name": "keyword.canyouscript.lua",
+			"match": "\\bcanyouscript\\b"
+        },
+        {
+            "name": "keyword.caniscript.lua",
+			"match": "\\bcaniscript\\b"
+        },
+        {
+            "name": "keyword.SoundService.lua",
+			"match": "\\bSoundService\\b"
+        },
+        {
+            "name": "keyword.Chat.lua",
+			"match": "\\bChat\\b"
+        },
+        {
+            "name": "keyword.loadstring.lua",
+			"match": "\\bloadstring\\b"
+        },
+        {
+            "name": "keyword.pairs.lua",
+			"match": "\\bpairs\\b"
+        },
+        {
+            "name": "keyword.random.lua",
+			"match": "\\brandom\\b"
+        },
+        {
+            "name": "keyword.tostring.lua",
+			"match": "\\btostring\\b"
+        },
+        {
+            "name": "keyword.LocalizationService.lua",
+			"match": "\\bLocalizationService\\b"
+        },
+        {
+            "name": "keyword.TestService.lua",
+			"match": "\\bTestService\\b"
+        },
+        {
+            "name": "keyword.gravity.lua",
+			"match": "\\bGravity\\b"
+        },
+        {
+            "name": "keyword.workspace.lua",
+			"match": "\\bWorkspace\\b"
+        },
+        {
+            "name": "keyword.writefile.lua",
+			"match": "\\bwritefile\\b"
+        },
+        {
+            "name": "keyword.appendfile.lua",
+			"match": "\\bappendfile\\b"
+        },
+        {
+            "name": "keyword.loadfile.lua",
+			"match": "\\bloadfile\\b"
+        },
+        {
+            "name": "keyword.listfiles.lua",
+			"match": "\\blistfiles\\b"
+        },
+        {
+            "name": "keyword.isfile.lua",
+			"match": "\\bisfile\\b"
+        },
+        {
+            "name": "keyword.isfolder.lua",
+			"match": "\\bisfolder\\b"
+        },
+        {
+            "name": "keyword.makefolder.lua",
+			"match": "\\bmakefolder\\b"
+        },
+        {
+            "name": "keyword.delfolder.lua",
+			"match": "\\bdelfolder\\b"
+        },
+        {
+            "name": "keyword.delfile.lua",
+			"match": "\\bdelfile\\b"
+        },
+        {
+            "name": "keyword.setclipboard.lua",
+			"match": "\\bsetclipboard\\b"
+        },
+        {
+            "name": "keyword.saveinstance.lua",
+			"match": "\\bsaveinstance\\b"
+        },
+        {
+            "name": "keyword.messagebox.lua",
+			"match": "\\bmessagebox\\b"
+        },
+        {
+            "name": "keyword.Drawing.lua",
+			"match": "\\bDrawing.new\\b"
+        },
+        {
+            "name": "keyword.debug.lua",
+			"match": "\\bdebug\\b"
+        },
+        {
+            "name": "keyword.bit.lua",
+			"match": "\\bbit\\b"
+        },
+        {
+            "name": "keyword.crypt.lua",
+			"match": "\\bcrypt\\b"
+        },
+        {
+            "name": "keyword.syn.lua",
+			"match": "\\bsyn\\b"
+        },
+        {
+            "name": "keyword.protosmasher.lua",
+			"match": "\\bprotosmasher\\b"
+        },
+        {
+            "name": "keyword.sirhunt.lua",
+			"match": "\\bsirhunt\\b"
+        },
+        {
+            "name": "keyword.sentinel.lua",
+			"match": "\\bsentinel\\b"
+        },
+        {
+            "name": "keyword.azulx.lua",
+			"match": "\\bazulx\\b"
+        },
+        {
+            "name": "keyword.dsboy08.lua",
+			"match": "\\b3dsboy08\\b"
+        },
+        {
+            "name": "keyword.guestbuilds.lua",
+			"match": "\\bguestbuilds\\b"
+        },
+        {
+            "name": "keyword.keanureeves.lua",
+			"match": "\\bkeanureeves\\b"
+        },
+        {
+            "name": "keyword.aykay.lua",
+			"match": "\\baykay\\b"
+        },
+        {
+            "name": "keyword.guard.lua",
+			"match": "\\bguard\\b"
+        },
+        {
+            "name": "keyword.setreadonly.lua",
+			"match": "\\bsetreadonly\\b"
+        },
+        {
+            "name": "keyword.colorthree.lua",
+			"match": "\\bColor3\\b"
+        },
+        {
+            "name": "keyword.instance.lua",
+			"match": "\\bInstance\\b"
+        },
+        {
+            "name": "keyword.collectgarbage.lua",
+			"match": "\\bcollectgarbage\\b"
+        },
+        {
+            "name": "keyword.pcall.lua",
+			"match": "\\bpcall\\b"
+        },
+        {
+            "name": "keyword.require.lua",
+			"match": "\\brequire\\b"
+        },
+        {
+            "name": "keyword.warn.lua",
+			"match": "\\bwarn\\b"
+        },
+        {
+            "name": "keyword.mathhuge.lua",
+			"match": "\\bmath.huge\\b"
+        },
+        
+        {
+            "name": "keyword.coroutine.lua",
+			"match": "\\bcoroutine\\b"
+        },
+        {
+            "name": "keyword.bit.lua",
+			"match": "bit32"
+        },
+        {
+            "name": "keyword.clamp.lua",
+			"match": "math.clamp"
+        },
+        {
+            "name": "keyword.asin.lua",
+			"match": "\\bmath.asin\\b"
+        },
+        {
+            "name": "keyword.acos.lua",
+			"match": "math.acos"
+        },
+        {
+            "name": "keyword.floor.lua",
+			"match": "math.floor"
+        },
+        {
+            "name": "keyword.random.lua",
+			"match": "math.random"
+        },
+        {
+            "name": "keyword.ceil.lua",
+			"match": "math.ceil"
+        },
+        {
+            "name": "keyword.math.lua",
+			"match": "\\bmath\\b"
+        },
+        {
+            "name": "keyword.ostime.lua",
+			"match": "os.time"
+        },
+        {
+            "name": "keyword.Region3.lua",
+			"match": "Region3"
+        },
+        {
+            "name": "keyword.TweenInfo.lua",
+			"match": "TweenInfo"
+        },
+        {
+            "name": "keyword.UDim2.lua",
+			"match": "UDim2"
+        },
+        {
+            "name": "keyword.Vector3.lua",
+			"match": "Vector3"
+        },
+        {
+            "name": "keyword.Vector2.lua",
+			"match": "Vector2"
+        },
+        {
+            "name": "keyword.ColorSequence.lua",
+			"match": "ColorSequence"
+        },
+        {
+            "name": "keyword.stringreverse.lua",
+			"match": "string.reverse"
+        },
+        {
+            "name": "keyword.stringgsub.lua",
+			"match": "string.gsub"
+        },
+        {
+            "name": "keyword.stringmatch.lua",
+			"match": "string.match"
+        },
+        {
+            "name": "keyword.stringfind.lua",
+			"match": "string.find"
+        },
+        {
+            "name": "keyword.stringlower.lua",
+			"match": "string.lower"
+        },
+        {
+            "name": "keyword.tableconcat.lua",
+			"match": "table.concat"
+        },
+        {
+            "name": "keyword.tableforeach.lua",
+			"match": "table.foreach"
+        },
+        {
+            "name": "keyword.tablecreate.lua",
+			"match": "table.create"
+        },
+        {
+            "name": "keyword.tableinsert.lua",
+			"match": "table.insert"
+        },
+        {
+            "name": "keyword.utf8.lua",
+			"match": "utf8"
+        },
+        {
+            "name": "keyword.table.lua",
+			"match": "table"
+        },
+        {
+            "name": "keyword.string.lua",
+			"match": "string"
+        },
+        {
+            "name": "keyword.os.lua",
+			"match": "os"
+        },
+        
+        {
+            "name": "keyword.print.lua",
+			"match": "print"
+        },
+        {
+            "begin": "\\b(?:(local)\\s+)?()\\s*(?:\\s+([a-zA-Z_][a-zA-Z0-9_]*(?:([\\.:])[a-zA-Z_][a-zA-Z0-9_]*)?)\\s*)?(\\()",
+            "beginCaptures": {
+                "1": {
+                    "name": "keyword.local.lua"
+                },
+                "2": {
+                    "name": "keyword.control.lua"
+                },
+                "3": {
+                    "name": "entity.name.function.lua"
+                },
+                "4": {
+                    "name": "punctuation.separator.parameter.lua"
+                },
+                "5": {
+                    "name": "punctuation.definition.parameters.begin.lua"
+                }
+            },
+			"end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.parameters.end.lua"
+				}
+			},
+            "name": "meta.function.lua",
+            "patterns": [
+                {
+					"match": "[a-zA-Z_][a-zA-Z0-9_]*",
+					"name": "variable.parameter.function.lua"
+                },
+                {
+                    "include": "#function_parameter"
+                },
+                {
+                    "match": ",",
+                    "name": "punctuation.separator.arguments.lua"
+                }
+            ]
+        },
+        {
+            "match": "(?<![\\w\\d.])0[xX][0-9A-Fa-f]+(?![pPeE.0-9])",
+            "name": "constant.numeric.integer.hexadecimal.lua"
+        },
+        {
+            "match": "(?<![\\w\\d.])0[xX][0-9A-Fa-f]+(\\.[0-9A-Fa-f]+)?([eE]-?\\d*)?([pP][-+]\\d+)?",
+            "name": "constant.numeric.float.hexadecimal.lua"
+        },
+        {
+            "match": "(?<![\\w\\d.])(\\d[\\d_]*(\\.[\\d_]+)|\\.\\d[\\d_]*)([eE]-?\\d*)?",
+            "name": "constant.numeric.float.lua"
+        },
+        {
+            "match": "(?<![\\w\\d.])\\d[\\d_]*(?![pPeE.0-9])",
+            "name": "constant.numeric.integer.lua"
+        },
+        {
+            "begin": "'",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin.lua"
+                }
+            },
+            "end": "'",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end.lua"
+                }
+            },
+            "name": "string.quoted.single.lua",
+            "patterns": [
+                {
+                    "include": "#escaped_char"
+                }
+            ]
+        },
+        {
+            "begin": "\"",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin.lua"
+                }
+            },
+            "end": "\"",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end.lua"
+                }
+            },
+            "name": "string.quoted.double.lua",
+            "patterns": [
+                {
+                    "include": "#escaped_char"
+				}
+            ]
+        },
+        {
+            "begin": "(?<=\\.cdef)\\s*(\\[(=*)\\[)",
+            "beginCaptures": {
+                "0": {
+                    "name": "string.quoted.other.multiline.lua"
+                },
+                "1": {
+                    "name": "punctuation.definition.string.begin.lua"
+                }
+            },
+            "contentName": "meta.embedded.lua",
+            "end": "(\\]\\2\\])",
+            "endCaptures": {
+                "0": {
+                    "name": "string.quoted.other.multiline.lua"
+                },
+                "1": {
+                    "name": "punctuation.definition.string.end.lua"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "source.c"
+                }
+            ]
+        },
+        {
+            "begin": "(?<!--)\\[(=*)\\[",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin.lua"
+                }
+            },
+            "end": "\\]\\1\\]",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end.lua"
+                }
+            },
+			"name": "string.quoted.other.multiline.lua"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "punctuation.definition.comment.lua"
+                }
+            },
+            "match": "\\A(#!).*$\\n?",
+            "name": "comment.line.shebang.lua"
+        },
+        {
+            "begin": "(^[ \\t]+)?(?=--)",
+            "beginCaptures": {
+                "1": {
+                    "name": "punctuation.whitespace.comment.leading.lua"
+                }
+            },
+            "end": "(?!\\G)((?!^)[ \\t]+\\n)?",
+            "endCaptures": {
+                "1": {
+                    "name": "punctuation.whitespace.comment.trailing.lua"
+                }
+            },
+            "patterns": [
+                {
+                    "begin": "--- *(@[\\w]+) +",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "comment.line.lua"
+                        },
+                        "1": {
+                            "name": "storage.type.annotation.lua"
+                        }
+                    },
+                    "end": "(\\w+\\.[\\w.]+)?((([\\w]+) +([\\w]+))?([\\w]+)?([.\\S ]+)?)?\\n",
+                    "endCaptures": {
+                        "1": {
+                            "name": "string.lua"
+                        },
+                        "4": {
+                            "name": "variable.parameter.lua"
+                        },
+                        "5": {
+                            "name": "support.type.lua"
+                        },
+                        "6": {
+                            "name": "support.type.lua"
+                        },
+                        "7": {
+                            "name": "comment.line.lua"
+                        }
+                    }
+                },
+                {
+                    "begin": "--\\[(=*)\\[",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.comment.begin.lua"
+                        }
+                    },
+                    "end": "\\]\\1\\]",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.comment.end.lua"
+                        }
+                    },
+                    "name": "comment.block.lua"
+                },
+                {
+                    "begin": "--",
+                    "beginCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.comment.lua"
+                        }
+                    },
+                    "end": "\\n",
+                    "name": "comment.line.double-dash.lua"
+                }
+            ]
+        },
+        {
+            "match": "\\b(do|else|for|if|elseif|goto|return|repeat|while|until|end|in|and|or)\\b",
+            "name": "keyword.control.lua"
+        },
+        {
+            "captures": {
+				"1": {
+					"name": "keyword.local.lua"
+                },
+                "2": {
+					"name": "constant.language.lua"
+                },
+                "3": {
+					"name": "variable.other.readwrite.lua"
+                },
+                "4": {
+					"name": "support.type.lua"
+				}
+			},
+            "match": "\f\\b(global|local|field)\\b \\*?(game)?([\\w.]+): (\\w+)?"
+        },
+        {
+            "begin": "\\f-> ",
+            "end": "\\f",
+            "patterns": [
+                {
+                    "match": "(\\w+): (\\w+(\\.)?\\w+)",
+                    "captures": {
+                        "1": {
+                            "name": "variable.parameter.function.lua"
+                        },
+                        "2": {
+							"name": "entity.name.type.lua"
+                        },
+                        "3": {
+							"name": "keyword.operator.other.lua"
+						}
+                    }
+                },
+                {
+					"match": "[a-zA-Z_][a-zA-Z0-9_]*",
+					"name": "entity.name.type.lua"
+                },
+                {
+                    "match": ",",
+                    "name": "punctuation.separator.arguments.lua"
+                }
+            ]
+        },
+        {
+			"captures": {
+				"1": {
+					"name": "keyword.control.export"
+                },
+                "2": {
+					"name": "storage.type.lua"
+                },
+                "3": {
+					"name": "entity.name.type.alias.lua"
+				}
+			},
+			"match": "(\\bexport\\b\\s+)?(\\btype\\b)\\s+([\\w_]+)(<.+>)?\\s*="
+        },
+        {
+            "match": "\\+|-|%|#|\\*|\\/|\\^|==?|~=|<=?|>=?|(?<!\\.)\\.{2}(?!\\.)",
+            "name": "keyword.operator.lua"
+        },
+        {
+            "match": "(?<![^.]\\.|:)\\b(workspace|game|script|plugin|shared|_G|_VERSION|math\\.(pi|huge))\\b|(?<![.])\\.{3}(?!\\.)",
+            "name": "constant.language.lua"
+        },
+        {
+            "match": "\\btrue\\b",
+            "name": "constant.language.boolean.true.lua"
+        },
+        {
+            "match": "\\bfalse\\b",
+            "name": "constant.language.boolean.false.lua"
+        },
+        {
+            "match": "\\bnil\\b",
+            "name": "constant.language.nil.lua"
+        },
+        {
+            "match": "(?<![^.]\\.|:)\\b(self)\\b",
+            "name": "variable.language.self.lua"
+        },
+        {
+            "match": "(?<![^.]\\.|:)\\b(assert|collectgarbage|error|getfenv|getmetatable|ipairs|loadstring|next|pairs|pcall|print|rawequal|rawget|rawset|require|select|setfenv|setmetatable|tonumber|tostring|type|unpack|xpcall|typeof|wait|delay|settings|elapsedTime|tick|time|warn|spawn|newproxy|UserSettings)\\b(?=\\s*(?:[({\"']|\\[\\[))",
+            "name": "support.function.lua"
+        },
+        {
+            "match": "(?<![^.]\\.|:)\\b(coroutine\\.(create|resume|running|status|wrap|yield|isyieldable)|string\\.(byte|char|dump|find|format|gmatch|gsub|len|lower|match|rep|reverse|sub|upper|split|packsize|pack|unpack)|table\\.(concat|insert|maxn|remove|sort|create|find|foreach|foreachi|getn|move|pack|unpack|clear)|math\\.(abs|acos|asin|atan2?|ceil|cosh?|deg|exp|floor|fmod|frexp|ldexp|log|log10|max|min|modf|pow|rad|random|randomseed|tointeger|type|ult|noise|clamp|sign|sinh?|sqrt|tanh?|round)|io\\.(close|flush|input|lines|open|output|popen|read|tmpfile|type|write)|os\\.(clock|date|difftime|execute|exit|getenv|remove|rename|setlocale|time|tmpname)|package\\.(cpath|loaded|loadlib|path|preload|seeall)|debug\\.(debug|[gs]etfenv|[gs]ethook|getinfo|[gs]etlocal|[gs]etmetatable|getregistry|[gs]etupvalue|traceback|profileend|profilebegin)|utf8\\.(char|codes|codepoint|len|offset|graphemes|charpattern|nfcnormalize|nfdnormalize)|bit32\\.(arshift|band|bnot|bor|btest|bxor|extract|lrotate|lshift|replace|rrotate|rshift))\\b(?=\\s*(?:[({\"']|\\[\\[))",
+            "name": "support.function.library.lua"
+        },
+        {
+            "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s*(?:[({\"']|\\[\\[))",
+            "name": "entity.name.function.lua"
+        },
+        {
+            "match": "\\b([A-Z_][A-Z0-9_]*)\\b",
+            "name": "variable.other.constant.lua"
+        },
+        {
+            "match": "(?<=[^.]\\.|:)\\b([a-zA-Z_][a-zA-Z0-9_]*)",
+            "name": "variable.property.lua"
+        },
+        {
+            "match": "\\b(Axes|BrickColor|CFrame|Color3|ColorSequence|ColorSequenceKeypoint|DateTime|DockWidgetPluginGuiInfo|Faces|Instance|NumberRange|NumberSequence|NumberSequenceKeypoint|PathWaypoint|PhysicalProperties|Random|Ray|RaycastParams|Rect|Region3|Region3int16|TweenInfo|UDim|UDim2|Vector2|Vector2int16|Vector3|Vector3int16)\\b",
+            "name": "support.type.lua"
+        },
+        {
+			"match": "(Enum)\\.(\\w*)\\.?(\\w*)",
+			"captures": {
+				"1": {
+					"name": "variable.other.enummember.lua"
+                },
+                "2": {
+					"name": "variable.other.enummember.lua"
+                },
+                "3": {
+					"name": "variable.other.enummember.lua"
+				}
+			}
+		},
+        {
+            "match": "\\b([a-zA-Z_]\\w*)\\b",
+            "name": "variable.other.readwrite.js"
+        }
+    ],
+    "repository": {
+        "escaped_char": {
+            "patterns": [
+                {
+                    "match": "\\\\[abfnrtvz\\\\\"'\\n]",
+                    "name": "constant.character.escape.lua"
+                },
+                {
+                    "match": "\\\\\\d{1,3}",
+                    "name": "constant.character.escape.byte.lua"
+                },
+                {
+                    "match": "\\\\x[0-9A-Fa-f][0-9A-Fa-f]",
+                    "name": "constant.character.escape.byte.lua"
+                },
+                {
+                    "match": "\\\\u\\{[0-9A-Fa-f]+\\}",
+                    "name": "constant.character.escape.unicode.lua"
+                },
+                {
+                    "match": "\\\\.",
+                    "name": "invalid.illegal.character.escape.lua"
+                }
+            ]
+        },
+        "function_parameter": {
+            "patterns": [
+                {
+                    "begin": ": (\\w+(\\.)?\\w+)\\(",
+                    "beginCaptures": {
+						"1": {
+							"name": "entity.name.type.lua"
+                        },
+                        "2": {
+							"name": "keyword.operator.other.lua"
+						}
+					},
+                    "contentName": "source.lua",
+                    "end": "\\)",
+					"patterns": [
+						{
+							"include": "$self"
+						}
+					]
+                },
+                {
+                    "match": ": (\\w+(\\.)?\\w+)",
+                    "captures": {
+                        "1": {
+							"name": "entity.name.type.lua"
+                        },
+                        "2": {
+							"name": "keyword.operator.other.lua"
+						}
+                    }
+                }
+            ]
+        }
+    },
+    "scopeName": "source.lua"
+}
