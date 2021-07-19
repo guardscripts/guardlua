@@ -1,7 +1,7 @@
 {
 	"name": "guardlua",
 	"displayName": "guardlua",
-	"description": "luau theme, snippets, custom language, and more! Includes guardtheme, guardrun, guardsnippets, and guardlua.",
+	"description": "luau theme, snippets, custom language, and more! Includes guardtheme, guardrun, guardsnippets, and guardlua in this extension. More information: https://guard.lol/documentation/guardlua",
 	"version": "2.0.0",
 	"publisher": "guard",
 	"icon": "images/guardlualogo.png",
