@@ -287,7 +287,7 @@
 		"name": "px",
 		"scope": "keyword.other.unit.px.css",
 		"settings": {
-			"foreground": "#c4ff93"
+			"foreground": "#c6ff98"
 		}
 	  },
 	 
