@@ -1,8 +1,8 @@
 {
 	"name": "guardlua",
 	"displayName": "guardlua",
-	"description": "productivity for lua",
-	"version": "1.420.69",
+	"description": "luau theme, snippets, custom language, and more! Includes guardtheme, guardrun, guardsnippets, and guardlua.",
+	"version": "1.0.0",
 	"publisher": "guard",
 	"icon": "images/guardlualogo.png",
 	"engines": {
@@ -22,11 +22,12 @@
 		"*"
 	],
 	"keywords": [
+		"lua",
+		"luau",
+		"roblox",
+		"guard",
 		"synapse",
 		"guardlua",
-		"guard",
-		"lua",
-		"roblox",
 		"roblox lua",
 		"luau",
 		"guardsnippets",
@@ -34,16 +35,12 @@
 		"guardtheme"
 	],
 	"main": "./out/extension.js",
-	
-	
-	
 	"dependencies": {
 		"websocket": "^1.0.28",
 		"websocket-as-promised": "^0.9.0"
 	},
 	"contributes": {
 		"commands": [
-			
 			{
 				"command": "extension.synapseExecute",
 				"title": "guardrun"
@@ -66,73 +63,8 @@
 					".rbxs"
 				],
 				"configuration": "./language-configuration.json"
-			},
-			{
-				"id": "json",
-				"aliases": [
-					"good"
-				]
-			},
-			{
-				"id": "csharp",
-				"aliases": [
-					"better than c++"
-				]
-			},
-			{
-				"id": "php",
-				"aliases": [
-					"better than html"
-				]
-			},
-			{
-				"id": "python",
-				"aliases": [
-					"what are you doing"
-				]
-			},
-			{
-				"id": "bat",
-				"aliases": [
-					"exe but different"
-				]
-			},
-			{
-				"id": "html",
-				"aliases": [
-					"lets be honest, php is better"
-				]
-			},
-			{
-				"id": "javascript",
-				"aliases": [
-					"typescript better tbh"
-				]
-			},
-			{
-				"id": "makefile",
-				"aliases": [
-					"lmao"
-				]
-			},
-			{
-				"id": "plaintext",
-				"aliases": [
-					"just why tho"
-				]
-			},
-			{
-				"id": "typescript",
-				"aliases": [
-					"good choice"
-				]
-			},
-			{
-				"id": "xml",
-				"aliases": [
-					"just stop why are you using this on vscode"
-				]
 			}
+			
 		],
 		"configuration": {
 			"properties": {
@@ -743,6 +675,6 @@
 		"id": "a393c616-a02e-41f8-a60d-642723dc2518",
 		"publisherId": "9e85364c-e9f6-43cf-866f-630ec7cee114",
 		"publisherDisplayName": "guard",
-		"installedTimestamp": 1624396731512
+		"installedTimestamp": 1626633105439
 	}
 }

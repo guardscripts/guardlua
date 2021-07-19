@@ -37,7 +37,9 @@
 
 ###### <b>4</b> - have a .lua script open & press the guardrun button at the bottom of vscode
 ![](https://i.postimg.cc/WpqfXyv5/guardrun.jpg)
-###### (credits to nexure)
+
+---
+###### (credits to nexure + nighttrains)
 
 ---
 

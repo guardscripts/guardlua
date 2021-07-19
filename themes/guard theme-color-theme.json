@@ -280,9 +280,18 @@
 		"name": "support.constant.property-value.scss",
 		"scope": "support.constant.property-value.scss,support.constant.property-value.css",
 		"settings": {
-		  "foreground": "#ffffff"
+		  "foreground": "#e2fff6"
 		}
 	  },
+	  {
+		"name": "px",
+		"scope": "keyword.other.unit.px.css",
+		"settings": {
+			"foreground": "#c4ff93"
+		}
+	  },
+	 
+
 	  {
 		"name": "CSS/SCSS/LESS Operators",
 		"scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
@@ -635,6 +644,66 @@
 		  "foreground": "#6ab2ff"
 		}
 	  },
+	  {
+		"name": "css",
+		"scope": "support.type.property-name.css",
+		"settings": {
+			"foreground": "#6aeeff"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "punctuation.separator.key-value.css",
+		"settings": {
+			"foreground": "#bfffe6"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "punctuation.section.property-list.begin.bracket.curly.css",
+		"settings": {
+			"foreground": "#a7d2ff"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "support.constant.font-name.css",
+		"settings": {
+			"foreground": "#6fffbc"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "constant.numeric.css",
+		"settings": {
+			"foreground": "#C4FFF7"
+		}
+	  },
+	  
+
+	  {
+		"name": "css",
+		"scope": "punctuation.section.property-list.end.bracket.curly.css",
+		"settings": {
+			"foreground": "#e4f1ff"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "punctuation.section.property-list.end.bracket.curly.css",
+		"settings": {
+			"foreground": "#e4f1ff"
+		}
+	  },
+	  {
+		"name": "css",
+		"scope": "punctuation.terminator.rule.css",
+		"settings": {
+			"foreground": "#BFFFE6",
+			"fontStyle": "bold"
+		}
+	  },
+
 	  {
 		"name": "Type Name",
 		"scope": "entity.name.type",
@@ -2072,9 +2141,26 @@
 		"scope": "entity.other.attribute-name.class.css",
 		"settings": {
 		 
-		  "foreground": "#ffffff"
+		  "foreground": "#6a92ff"
 		}
 	  },
+	  {
+		"name": "Attribute class",
+		"scope": "keyword.control.at-rule.import.css",
+		"settings": {
+			"foreground": "#a4ebd1"
+		}
+	  },
+	  {
+		"name": "Attribute class",
+		"scope": "punctuation.section.function.begin.bracket.round.css",
+		"settings": {
+			"foreground": "#b78bff"
+		}
+	  },
+	  
+
+
 	  {
 		"name": "Selector",
 		"scope": "meta.selector",
