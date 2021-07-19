@@ -2,7 +2,7 @@
 	"name": "guardlua",
 	"displayName": "guardlua",
 	"description": "luau theme, snippets, custom language, and more! Includes guardtheme, guardrun, guardsnippets, and guardlua.",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"publisher": "guard",
 	"icon": "images/guardlualogo.png",
 	"engines": {
