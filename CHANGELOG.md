@@ -3,6 +3,7 @@
 ## [2.0.0] - 2021-7-18
 ### Added
 - css custom syntax support
+
 ## [1.420.69] - 2021-7-18
 ### Added
 - html custom syntax support
